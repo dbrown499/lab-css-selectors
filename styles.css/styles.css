@@ -1,0 +1,35 @@
+body {
+  background-color: hsl(217, 34%, 47%);
+}
+
+.head__name {
+  color: hsl(55, 48%, 67%);
+}
+
+.para__that {
+  color: white;
+}
+
+.img {
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.head__skills {
+  color: white;
+}
+
+.languages {
+  color: hsl(215, 29%, 65%);
+  text-decoration: underline;
+}
+
+li {
+  list-style: none;
+}
+
+/*# sourceMappingURL=styles.css.map */

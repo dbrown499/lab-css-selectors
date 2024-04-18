@@ -1,4 +1,3 @@
-
 :root {
   --background-blue: #4f6ea0;
   --line-blue: #104e6e;
@@ -18,6 +17,7 @@ h1 {
   font-size: 3em;
   text-shadow: 1px 1px #eeeab4;
 }
+
 li {
   list-style-type: none;
   display: flex;
@@ -41,22 +41,20 @@ li {
   box-shadow: var(--dark-box-shadowing);
 }
 
- {
-  text-align: center;
-  border: 1px solid var(--line-blue);
-  border-radius: 10px;
-  color: var(--soft-white);
-  background-color: var(--line-blue);
-  width: 30%;
-  padding: 2em 1em;
-  margin: 1em;
-  box-shadow: var(--dark-box-shadowing);
-}
-
-{
-  width: 10%;
-}
-
+/* {
+    text-align: center;
+    border: 1px solid var(--line-blue);
+    border-radius: 10px;
+    color: var(--soft-white);
+    background-color: var(--line-blue);
+    width: 30%;
+    padding: 2em 1em;
+    margin: 1em;
+    box-shadow: var(--dark-box-shadowing);
+} */
+/* {
+    width: 10%;
+} */
 img {
   width: auto;
   height: 200px;
@@ -88,10 +86,9 @@ li {
   padding-bottom: 20px;
 }
 
- {
-  font-size: 20px;
-}
-
+/* {
+    font-size: 20px;
+} */
 p {
   color: var(--soft-white);
   text-decoration: none;
@@ -102,7 +99,6 @@ h4 {
 }
 
 /* modified from https://www.sanwebe.com/2014/08/css-html-forms-designs */
-
 form {
   width: 60%;
   font-size: 16px;
@@ -117,26 +113,29 @@ form {
   opacity: 0.7;
 }
 
-form input[type="submit"],
-form input[type="button"],
-form input[type="text"],
-form input[type="email"],
+form input[type=submit],
+form input[type=button],
+form input[type=text],
+form input[type=email],
 form textarea,
 form label {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 16px;
   color: var(--soft-white);
 }
+
 form label {
   width: 100%;
   margin-bottom: 10px;
 }
+
 form label > span {
   display: inline-block;
   width: 150px;
 }
-form input[type="text"],
-form input[type="email"] {
+
+form input[type=text],
+form input[type=email] {
   background: transparent;
   border: none;
   border-bottom: 1px dashed #83a4c5;
@@ -146,13 +145,13 @@ form input[type="email"] {
   font-style: italic;
 }
 
-form input[type="text"]:focus,
-form input[type="email"]:focus {
+form input[type=text]:focus,
+form input[type=email]:focus {
   border-bottom: 1px dashed #d9ffa9;
 }
 
-form input[type="submit"],
-form input[type="button"] {
+form input[type=submit],
+form input[type=button] {
   background: var(--dark-shadow);
   border: none;
   padding: 8px 10px 8px 10px;
@@ -160,7 +159,9 @@ form input[type="button"] {
   color: #a8bace;
 }
 
-form input[type="submit"]:hover,
-form input[type="button"]:hover {
+form input[type=submit]:hover,
+form input[type=button]:hover {
   background: #394d61;
 }
+
+/*# sourceMappingURL=styles.css.map */
